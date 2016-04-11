@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "window.openInNewWindow": true,
+  "http.proxy": "web-proxy.oa.com:8080/",
+  "editor.wrappingColumn": 150,
+  "explorer.workingFiles.maxVisible": 7,
+  "files.exclude": {
+    "node_modules/**": false,
+    ".svn/**": true,
+    ".idea/**": true,
+    "**/svn/**": true
+  },
+  "search.exclude": {
+    ".svn/**": true,
+    "**/.svn/**": true,
+    ".idea/**": true,
+    "**.svn": true,
+    "**.svn-base": true,
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "window.zoomLevel": 1,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.formatOnType": true,
+  "markdown.styles": [],
+  "editor.renderWhitespace": false,
+  // "editor.quickSuggestionsDelay": 50,
+  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib"
+}

@@ -1,0 +1,45 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.format",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k up",
+    "command": "workbench.files.action.openPreviousWorkingFile"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "editor.fold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+cmd+[",
+    "command": "editor.foldAll",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "editor.unfold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+cmd+]",
+    "command": "editor.unfoldAll",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k down",
+    "command": "workbench.files.action.openNextWorkingFile"
+  },
+  {
+    "key": "cmd+k up",
+    "command": "workbench.files.action.openPreviousWorkingFile"
+  }
+]
